@@ -1,4 +1,4 @@
-package org.example;
+package org.example.pattern;
 
 /**
  * builder模式

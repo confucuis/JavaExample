@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.pattern.BuilderMode;
 import org.junit.Test;
 
 public class BuilderModeTest {
