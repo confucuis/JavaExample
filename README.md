@@ -2,6 +2,11 @@
 
 这是关于Java学习的示例代码仓库, Java版本: jdk-23.0.2
 
+- **学习**  
+1. [教程](https://dev.java/)  
+2. [指导](https://docs.oracle.com/en/java/javase/23/)  
+3. [文档](https://docs.oracle.com/en/java/index.html)
+
 
 - **打包:**
 1. mvn clean package
