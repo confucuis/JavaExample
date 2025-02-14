@@ -3,7 +3,8 @@ package org.example.pattern;
 /**
  * builder模式
  */
-public class BuilderMode {
+public class BuilderMode
+{
     private int x;
     private int y;
     private String name;

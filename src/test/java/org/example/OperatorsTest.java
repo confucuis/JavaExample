@@ -3,8 +3,8 @@ package org.example;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class OperatorsTest {
-
+public class OperatorsTest
+{
     @Test
     public void test() {
         Operators operators = new Operators(11, 5);

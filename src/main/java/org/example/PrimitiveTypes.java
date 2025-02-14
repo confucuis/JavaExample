@@ -19,7 +19,8 @@ package org.example;
  *   ## java.lang.String 类为字符串提供特殊支持
  *      String name = "ZhangSan";
  */
-public class PrimitiveTypes {
+public class PrimitiveTypes
+{
     // byte 默认值 0
     private static final byte a = 1;
     // short 默认值 0

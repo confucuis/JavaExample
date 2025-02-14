@@ -4,8 +4,8 @@ package org.example;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class VariablesTest {
-
+public class VariablesTest
+{
     @Test
     public void test() {
         Variables variables = new Variables();

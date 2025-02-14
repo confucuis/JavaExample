@@ -3,7 +3,8 @@ package org.example;
 /**
  *  链式调用
  */
-public class ChainCall {
+public class ChainCall
+{
     private int x;
     private int y;
 

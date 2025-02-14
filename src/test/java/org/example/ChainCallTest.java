@@ -2,8 +2,8 @@ package org.example;
 
 import org.junit.Test;
 
-public class ChainCallTest {
-
+public class ChainCallTest
+{
     @Test
     public void test() {
         ChainCall chainCall = new ChainCall();

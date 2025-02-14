@@ -2,8 +2,8 @@ package org.example;
 
 import org.junit.Test;
 
-public class ArraysTest {
-
+public class ArraysTest
+{
     @Test
     public void test() {
         Arrays arrays = new Arrays();

@@ -3,8 +3,8 @@ package org.example;
 import org.example.pattern.BuilderMode;
 import org.junit.Test;
 
-public class BuilderModeTest {
-
+public class BuilderModeTest
+{
     @Test
     public void test() {
         BuilderMode builderMode = new BuilderMode.Builder()

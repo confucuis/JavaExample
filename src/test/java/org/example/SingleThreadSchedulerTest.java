@@ -2,10 +2,10 @@ package org.example;
 
 import org.junit.Test;
 
-public class PrimitiveTypesTest
+public class SingleThreadSchedulerTest
 {
     @Test
     public void test() {
-        PrimitiveTypes.printPrimitive();
+        SingleThreadSchedule.call();
     }
 }

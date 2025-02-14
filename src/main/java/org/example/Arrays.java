@@ -3,7 +3,8 @@ package org.example;
 /**
  * 数组是一个固定长度的容器对象
  */
-public class Arrays {
+public class Arrays
+{
     private final int[] arr = new int[10];
 
     public Arrays() {}

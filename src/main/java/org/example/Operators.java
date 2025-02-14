@@ -8,7 +8,8 @@ package org.example;
  *   逻辑运算: && ||
  *   三元运算: : ?
  */
-public class Operators {
+public class Operators
+{
     private final int x;
     private final int y;
 

@@ -3,7 +3,8 @@ package org.example;
 /**
  * 变量命名, 例如: currentGear
  */
-public class Variables {
+public class Variables
+{
 
     // 类变量(静态变量)
     // final 关键字声明的变量不可变
