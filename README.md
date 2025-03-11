@@ -26,3 +26,6 @@
 方式二:
 1. jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --module-path $JAVA_HOME/jmods --add-modules java.base --jlink-options --bind-services -d JavaExample --type app-image
 ```
+
+- **jdk生成jre**  
+1. jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output jre
