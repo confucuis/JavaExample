@@ -22,8 +22,8 @@
 
 - **jpackage打包**
 1. 方式一:  
-   >> jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output JavaExample/runtime
-   >> jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --main-class org.example.Main --type app-image --dest JavaExample --runtime-image JavaExample/runtime  
+   a. jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output JavaExample/runtime
+   b. jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --main-class org.example.Main --type app-image --dest JavaExample --runtime-image JavaExample/runtime  
 
 2. 方式二:  
-   >> jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --module-path $JAVA_HOME/jmods --add-modules java.base --jlink-options --bind-services -d JavaExample --type app-image  
+   a. jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --module-path $JAVA_HOME/jmods --add-modules java.base --jlink-options --bind-services -d JavaExample --type app-image  
