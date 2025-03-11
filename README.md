@@ -28,4 +28,5 @@
 ```
 
 - **jdk生成jre**  
-1. jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output jre
+1. 列出可以添加的模块: java --list-modules
+2. 生成jre: jlink --module-path $JAVA_HOME/jmods --add-modules java.base,java.sql --output jre 
