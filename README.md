@@ -16,17 +16,14 @@
 - **运行**
 1. java -jar JavaExample-1.0-SNAPSHOT.jar
 
-
-- **jpackage打包**
-```text
-方式一:
-1. jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output JavaExample/runtime
-2. jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --main-class org.example.Main --type app-image --dest JavaExample --runtime-image JavaExample/runtime
-
-方式二:
-1. jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --module-path $JAVA_HOME/jmods --add-modules java.base --jlink-options --bind-services -d JavaExample --type app-image
-```
-
 - **jdk生成jre**  
 1. 列出可以添加的模块: java --list-modules
 2. 生成jre: jlink --module-path $JAVA_HOME/jmods --add-modules java.base,java.sql --output jre 
+
+- **jpackage打包**
+1. 方式一:  
+   jlink --module-path $JAVA_HOME/jmods --add-modules java.base --output JavaExample/runtime
+   jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --main-class org.example.Main --type app-image --dest JavaExample --runtime-image JavaExample/runtime  
+
+2. 方式二:
+   jpackage --name JavaExample --input target --main-jar JavaExample-1.0-SNAPSHOT.jar --module-path $JAVA_HOME/jmods --add-modules java.base --jlink-options --bind-services -d JavaExample --type app-image  
